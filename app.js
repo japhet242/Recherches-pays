@@ -55,20 +55,12 @@ drapeau.innerHTML = `
 <h2>population</h2>
 <img src=" ${k.flags.png}">
 DORCEL LA QUEEN`
-const ul= document.querySelector('ul')
-const remove=ul.querySelector('div').innerHTML=''
+
 
 
     } 
     } catch(e){
-     const ul= document.querySelector('ul')
-     
-     const h=document.createElement('div')
-     h.style.background='red'
-    h.innerText=`ce pays n'existe pas`
-    ul.prepend(h)
-        
-        
+     const ul= document.querySelector('ul')  
     }
     
 }
